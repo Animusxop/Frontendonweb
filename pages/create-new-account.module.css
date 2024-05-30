@@ -1,0 +1,249 @@
+.chart {
+  color: var(--color-blueviolet);
+}
+.wisechart {
+  position: relative;
+  font-size: var(--title3-size);
+  line-height: 32px;
+  color: var(--color-black);
+}
+.newUser {
+  position: relative;
+  font-weight: 500;
+}
+.newUserWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-poppins);
+}
+.icon,
+.label {
+  position: absolute;
+}
+.label {
+  top: 0;
+  left: 0;
+}
+.icon {
+  top: 3px;
+  right: 49px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.hide,
+.passwordHideSee {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.passwordHideSee {
+  right: 8.9px;
+  width: 73px;
+  height: 27px;
+  display: none;
+  text-align: right;
+  font-size: var(--large-none-bold-size);
+  color: var(--color-dimgray-300);
+}
+.labelParent {
+  align-self: stretch;
+  height: 27px;
+}
+.div,
+.inputsChild,
+.labelParent {
+  position: relative;
+}
+.inputsChild {
+  width: 1px;
+  background-color: var(--color-gray-200);
+  height: 24px;
+}
+.icons,
+.inputs {
+  position: absolute;
+  display: none;
+}
+.inputs {
+  top: 15px;
+  left: 24px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icons {
+  top: 40px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.textField1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-dimgray-400);
+  box-sizing: border-box;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--color-gray-200);
+}
+.errorMessage {
+  width: 101px;
+  position: relative;
+  font-size: var(--small-normal-bold-size);
+  color: var(--color-crimson);
+  display: none;
+}
+.textField {
+  width: 323px;
+  height: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+.passwordHideSee1 {
+  position: absolute;
+  top: 0;
+  right: 8.9px;
+  width: 73px;
+  height: 27px;
+  text-align: right;
+  font-size: var(--large-none-bold-size);
+  color: var(--color-dimgray-300);
+}
+.textField2 {
+  width: 323px;
+  height: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.forgetPassword {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.textFieldParent {
+  width: 323px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+.text {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.controlsButtons {
+  width: 182px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-29xl);
+  background-color: var(--color-dimgray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-13xl);
+  box-sizing: border-box;
+  color: var(--sky-white);
+}
+.or {
+  position: relative;
+  line-height: 24px;
+  color: var(--ink-darker);
+}
+.socialMediaLogo {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.continueWithGoogle {
+  width: 239px;
+  position: relative;
+  display: none;
+}
+.socialMediaLogoParent {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 11.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.socialMediaSignuplogin {
+  width: 182px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--sky-white);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--title3-size);
+  font-family: var(--font-avenir);
+}
+.logIn {
+  font-weight: 500;
+  color: var(--color-dimgray-200);
+}
+.haveAnAccountContainer {
+  position: relative;
+  line-height: 24px;
+  cursor: pointer;
+  color: var(--ink-darker);
+}
+.wisechartParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.nativeHomeIndicator {
+  width: 375px;
+  position: relative;
+  height: 34px;
+}
+.createNewAccount {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-100);
+  height: 812px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 44px;
+  text-align: center;
+  font-size: var(--regular-none-bold-size);
+  color: var(--color-darkslategray);
+  font-family: var(--tiny-normal-regular);
+}

@@ -1,0 +1,105 @@
+.image1Icon {
+  width: 677px;
+  position: relative;
+  border-radius: var(--br-58xl);
+  height: 864px;
+  object-fit: cover;
+  z-index: 0;
+}
+.longTitle {
+  width: 88%;
+  position: absolute;
+  margin: 0 !important;
+  height: 20.2%;
+  top: 28.33%;
+  left: 9.33%;
+  line-height: 41px;
+  font-weight: 900;
+  display: inline-block;
+  z-index: 1;
+}
+.realTimeDataAccess {
+  margin-bottom: 0;
+}
+.realTimeDataAccessUpToT {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 19px;
+}
+.description,
+.screen4Child {
+  position: absolute;
+  margin: 0 !important;
+}
+.description {
+  width: 85.33%;
+  height: 14.53%;
+  top: 44.21%;
+  left: 9.33%;
+  font-size: var(--small-normal-bold-size);
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  color: #030303;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.screen4Child {
+  width: 14.93%;
+  height: 6.9%;
+  top: 78.45%;
+  right: 6.13%;
+  bottom: 14.66%;
+  left: 78.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.controlsPageControlsDot,
+.stepperDotsItem {
+  width: 8px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--sky-light);
+  height: 8px;
+}
+.stepperDotsItem {
+  background-color: var(--color-dimgray-200);
+}
+.screen4,
+.stepperDots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stepperDots {
+  width: 14.93%;
+  margin: 0 !important;
+  position: absolute;
+  height: 0.99%;
+  top: 81.4%;
+  right: 42.4%;
+  bottom: 17.61%;
+  left: 42.67%;
+  gap: var(--gap-5xs);
+  z-index: 4;
+}
+.screen4 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumslateblue-100);
+  height: 812px;
+  overflow: hidden;
+  gap: var(--gap-3xs);
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

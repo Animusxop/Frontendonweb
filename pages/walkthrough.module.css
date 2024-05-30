@@ -1,0 +1,90 @@
+.chart {
+  color: var(--color-blueviolet);
+}
+.wisechart {
+  position: relative;
+  line-height: 32px;
+}
+.viewsImagesRatio {
+  width: 327px;
+  position: relative;
+  border-radius: 16px;
+  height: 327px;
+  object-fit: cover;
+}
+.createBrilliantLearning {
+  width: 327px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  color: var(--ink-darkest);
+}
+.controlsPageControlsDot,
+.stepperDotsInner {
+  width: 8px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--sky-light);
+  height: 8px;
+}
+.stepperDotsInner {
+  background-color: var(--color-dimgray-200);
+}
+.stepperDots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.text {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.controlsButtons {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-29xl);
+  background-color: var(--color-dimgray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-13xl);
+  cursor: pointer;
+  font-size: var(--regular-none-bold-size);
+  color: var(--sky-white);
+}
+.logIn {
+  font-weight: 500;
+  color: var(--color-dimgray-200);
+}
+.haveAnAccountContainer {
+  position: relative;
+  font-size: var(--regular-none-bold-size);
+  line-height: 24px;
+  cursor: pointer;
+  color: var(--ink-darker);
+}
+.nativeHomeIndicator,
+.walkthrough {
+  width: 375px;
+  position: relative;
+  height: 34px;
+}
+.walkthrough {
+  width: 100%;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-100);
+  height: 812px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 33px;
+  text-align: center;
+  font-size: var(--title3-size);
+  color: var(--color-black);
+  font-family: var(--tiny-normal-regular);
+}
